@@ -20,7 +20,9 @@ header{
     opacity: 0.5;
     
   }
-  
+   ul li{
+    list-style: none;
+   }
 
   .logo1{
     width: 30%;
@@ -94,4 +96,21 @@ body{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  .treze{
+    padding-left: 40px;
+  
+  }
+  .menu{
+    padding-left: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  .cabecalho nav li a{
+    padding: 0px;
+    font-size: 3px;
+  }
 }
